@@ -34,6 +34,11 @@ export default function HomePage() {
                 Privacy policy
               </Link>
             </li>
+            <li>
+              <Link href="/legal/attendee/delete-me/" className={linkClass}>
+                Delete your data
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
@@ -42,6 +47,11 @@ export default function HomePage() {
             <li>
               <Link href="/legal/organizer/privacy-policy/" className={linkClass}>
                 Privacy policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/legal/organizer/delete-me/" className={linkClass}>
+                Delete your data
               </Link>
             </li>
           </ul>
