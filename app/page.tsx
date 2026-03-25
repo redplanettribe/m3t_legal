@@ -30,6 +30,11 @@ export default function HomePage() {
           <h2 className="text-sm font-semibold tracking-tight text-foreground">Attendee App</h2>
           <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
             <li>
+              <Link href="/support/attendee/" className={linkClass}>
+                Support
+              </Link>
+            </li>
+            <li>
               <Link href="/legal/attendee/privacy-policy/" className={linkClass}>
                 Privacy policy
               </Link>
@@ -44,6 +49,11 @@ export default function HomePage() {
         <div>
           <h2 className="text-sm font-semibold tracking-tight text-foreground">Organizer App</h2>
           <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+            <li>
+              <Link href="/support/organizer/" className={linkClass}>
+                Support
+              </Link>
+            </li>
             <li>
               <Link href="/legal/organizer/privacy-policy/" className={linkClass}>
                 Privacy policy
