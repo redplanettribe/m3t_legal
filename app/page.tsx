@@ -35,8 +35,18 @@ export default function HomePage() {
               </Link>
             </li>
             <li>
+              <Link href="/legal/attendee/terms-and-conditions/" className={linkClass}>
+                Terms &amp; conditions
+              </Link>
+            </li>
+            <li>
               <Link href="/legal/attendee/privacy-policy/" className={linkClass}>
                 Privacy policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/legal/attendee/privacy-choices/" className={linkClass}>
+                Privacy choices
               </Link>
             </li>
             <li>
@@ -55,8 +65,18 @@ export default function HomePage() {
               </Link>
             </li>
             <li>
+              <Link href="/legal/organizer/terms-and-conditions/" className={linkClass}>
+                Terms &amp; conditions
+              </Link>
+            </li>
+            <li>
               <Link href="/legal/organizer/privacy-policy/" className={linkClass}>
                 Privacy policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/legal/organizer/privacy-choices/" className={linkClass}>
+                Privacy choices
               </Link>
             </li>
             <li>

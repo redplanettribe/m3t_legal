@@ -27,6 +27,13 @@ export default function OrganizerDeleteMePage() {
           >
             Organizer privacy policy
           </Link>
+          {" · "}
+          <Link
+            href="/legal/organizer/privacy-choices"
+            className="text-primary underline underline-offset-4 hover:no-underline"
+          >
+            Privacy choices
+          </Link>
         </p>
 
         <h1 className="mt-6 scroll-m-20 text-3xl font-semibold tracking-tight">Delete your organizer data</h1>

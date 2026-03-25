@@ -35,6 +35,13 @@ export default function AttendeePrivacyPolicyPage() {
           <Link href="/" className="text-primary underline underline-offset-4 hover:no-underline">
             Home
           </Link>
+          {" · "}
+          <Link
+            href="/legal/attendee/privacy-choices"
+            className="text-primary underline underline-offset-4 hover:no-underline"
+          >
+            Privacy choices
+          </Link>
         </p>
 
         <h1 className="mt-6 scroll-m-20 text-3xl font-semibold tracking-tight">Attendee App Privacy Policy</h1>

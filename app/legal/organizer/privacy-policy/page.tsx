@@ -35,6 +35,13 @@ export default function OrganizerPrivacyPolicyPage() {
           <Link href="/" className="text-primary underline underline-offset-4 hover:no-underline">
             Home
           </Link>
+          {" · "}
+          <Link
+            href="/legal/organizer/privacy-choices"
+            className="text-primary underline underline-offset-4 hover:no-underline"
+          >
+            Privacy choices
+          </Link>
         </p>
 
         <h1 className="mt-6 scroll-m-20 text-3xl font-semibold tracking-tight">Organizer App Privacy Policy</h1>
