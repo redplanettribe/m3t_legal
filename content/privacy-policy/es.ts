@@ -3,7 +3,7 @@ import type { PrivacyPolicyDocument } from "./types"
 export const privacyPolicyEs: PrivacyPolicyDocument = {
   lang: "es",
   title: "Política de Protección de Datos Personales para Clientes y Usuarios de la Plataforma Multiticketing",
-  version: "1.1",
+  version: "1.2",
   effectiveDate: "2026-10-04",
   blocks: [
     {
@@ -45,7 +45,7 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
         "RUC: 1793228468001.",
         "Domicilio social: ISLA MARCHENA N42-138, AVE GRANADOS, CONJUNTO PORTAL D ARAGON 1, QUITO.",
         "Teléfono: 0983262407.",
-        "Correo electrónico para comunicaciones sobre protección de datos personales: info@redplanettribe.org."
+        "Correo electrónico para comunicaciones sobre protección de datos personales: privacy@redplanettribe.org."
       ]
     },
     {
@@ -58,7 +58,7 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
       items: [
         "Nombres y apellidos: Pedro Díaz Cruz.",
         "Domicilio laboral: Isla Marchena, Portal de Aragón 1.",
-        "Correo electrónico para comunicaciones sobre protección de datos personales: info@redplanettribe.org."
+        "Correo electrónico para comunicaciones sobre protección de datos personales: privacy@redplanettribe.org."
       ]
     },
     {
@@ -344,7 +344,7 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
     {
       type: "paragraph",
       number: "9.5.4",
-      text: "Elaborar estadísticas internas mediante el uso de datos anonimizados o disociados, con fines de análisis del uso de la PLATAFORMA, tendencias de participación en eventos y mejora del servicio."
+      text: "Elaborar estadísticas internas con fines de análisis del uso de la PLATAFORMA, tendencias de participación en eventos y mejora del servicio. Estas estadísticas se elaboran sobre datos disociados o seudonimizados. Cuando el TITULAR cierra su cuenta, sus registros de actividad se conservan seudonimizados y bloqueados durante los plazos indicados en la sección 7, y durante ese tiempo siguen siendo datos personales sujetos a la REGULACIÓN."
     },
     {
       type: "paragraph",
@@ -528,7 +528,7 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
     },
     {
       type: "paragraph",
-      text: "El TITULAR podrá ejercer los derechos sobre sus datos personales enviando una solicitud a la dirección de correo electrónico info@redplanettribe.org."
+      text: "El TITULAR podrá ejercer los derechos sobre sus datos personales enviando una solicitud a la dirección de correo electrónico privacy@redplanettribe.org."
     },
     {
       type: "subsection",
@@ -590,7 +590,25 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
     },
     {
       type: "paragraph",
-      text: "El TITULAR podrá revocar la autorización y consentimiento otorgado a MULTITICKETING para una o varias finalidades del tratamiento de sus datos personales, mediante la presentación de una solicitud escrita remitida a la dirección de correo electrónico info@redplanettribe.org."
+      text: "El TITULAR podrá revocar en cualquier momento la autorización y consentimiento otorgado a MULTITICKETING para el tratamiento de sus datos personales. La revocatoria opera de forma independiente respecto de cada finalidad basada en el consentimiento, sin que el TITULAR esté obligado a revocarlas todas."
+    },
+    {
+      type: "paragraph",
+      text: "La revocatoria podrá presentarse, a elección del TITULAR, por cualquiera de estos medios:"
+    },
+    {
+      type: "paragraph",
+      number: "17.1",
+      text: "Directamente en la PLATAFORMA, en la pantalla de privacidad de su cuenta, en la que cada finalidad basada en el consentimiento se muestra con el mismo texto con el que fue otorgada y puede ser retirada u otorgada nuevamente de forma independiente. Por encontrarse el TITULAR autenticado en su cuenta, esta vía no requiere la solicitud ni la documentación previstas en la sección 16.1, y surte efectos de forma inmediata."
+    },
+    {
+      type: "paragraph",
+      number: "17.2",
+      text: "Mediante la presentación de una solicitud escrita remitida a la dirección de correo electrónico privacy@redplanettribe.org, con el contenido previsto en la sección 16.1. Esta vía permanece disponible en todo caso, y es la que corresponde cuando la revocatoria la presenta el representante del TITULAR o quien acredite legitimación respecto de un TITULAR fallecido o incapaz. MULTITICKETING atenderá la solicitud dentro de los plazos establecidos por la REGULACIÓN."
+    },
+    {
+      type: "paragraph",
+      text: "La revocatoria surte efectos hacia el futuro. No afecta a la licitud del tratamiento realizado mientras el consentimiento estuvo vigente, ni a las comunicaciones ya remitidas, ni a los datos que terceros hubieran recibido lícitamente durante ese período. Conforme a la sección 10, la revocatoria no afectará el acceso a los servicios esenciales de la PLATAFORMA sustentados en otras bases de legitimación. Si el TITULAR desea además que se eliminen los datos ya tratados, deberá ejercer el derecho de eliminación o supresión previsto en la sección 16.2, por la vía indicada en la sección 16."
     },
     {
       type: "section",
@@ -599,7 +617,7 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
     },
     {
       type: "paragraph",
-      text: "Previa solicitud expresa y por escrito del TITULAR, que deberá ser remitida a la dirección de correo electrónico info@redplanettribe.org, MULTITICKETING podrá proporcionar sus datos personales en un formato compatible, actualizado, estructurado, común, interoperable y de lectura mecánica, preservando sus características; para que puedan ser custodiados por el propio TITULAR o ser entregados a otro responsable definido por el TITULAR."
+      text: "Previa solicitud expresa y por escrito del TITULAR, que deberá ser remitida a la dirección de correo electrónico privacy@redplanettribe.org, MULTITICKETING podrá proporcionar sus datos personales en un formato compatible, actualizado, estructurado, común, interoperable y de lectura mecánica, preservando sus características; para que puedan ser custodiados por el propio TITULAR o ser entregados a otro responsable definido por el TITULAR."
     },
     {
       type: "section",
@@ -613,11 +631,19 @@ export const privacyPolicyEs: PrivacyPolicyDocument = {
     {
       type: "section",
       number: "20",
-      title: "Consentimiento"
+      title: "Declaración de información y consentimiento"
     },
     {
       type: "paragraph",
-      text: "El TITULAR declara haber sido informado y acepta, sin reserva ni condicionamiento alguno, las declaraciones y compromisos que aquí se contienen. En particular, acepta y aprueba de forma expresa, libre, específica, inequívoca e informada el manejo de sus datos personales por parte de MULTITICKETING, en la forma y con los alcances que se detallan en la POLÍTICA."
+      text: "El TITULAR declara haber sido informado del contenido de la POLÍTICA y de las declaraciones y compromisos que aquí se contienen, con carácter previo al tratamiento de sus datos personales. Esta declaración constituye un acuse de información y no comporta, por sí sola, consentimiento para el tratamiento."
+    },
+    {
+      type: "paragraph",
+      text: "El consentimiento del TITULAR se otorga única y exclusivamente respecto de las finalidades enumeradas en la sección 9.4, de forma independiente para cada una de ellas, y es libre, específico, informado e inequívoco. Las demás finalidades descritas en la POLÍTICA se sustentan en las bases de legitimación señaladas en las secciones 9.1, 9.2, 9.3 y 9.5, y no requieren consentimiento."
+    },
+    {
+      type: "paragraph",
+      text: "Conforme a la sección 10, el otorgamiento del consentimiento no es condición para el acceso a los servicios esenciales de la PLATAFORMA, y su negativa o revocatoria no afectará dicho acceso."
     },
     {
       type: "section",

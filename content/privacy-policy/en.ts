@@ -3,7 +3,7 @@ import type { PrivacyPolicyDocument } from "./types"
 export const privacyPolicyEn: PrivacyPolicyDocument = {
   lang: "en",
   title: "Personal Data Protection Policy for Clients and Users of the Multiticketing Platform",
-  version: "1.1",
+  version: "1.2",
   effectiveDate: "2026-10-04",
   blocks: [
     {
@@ -45,7 +45,7 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
         "Taxpayer ID (RUC): 1793228468001.",
         "Registered office: ISLA MARCHENA N42-138, AVE GRANADOS, CONJUNTO PORTAL D ARAGON 1, QUITO.",
         "Telephone: 0983262407.",
-        "Email address for communications regarding personal data protection: info@redplanettribe.org."
+        "Email address for communications regarding personal data protection: privacy@redplanettribe.org."
       ]
     },
     {
@@ -58,7 +58,7 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
       items: [
         "First and last names: Pedro Díaz Cruz.",
         "Work address: Isla Marchena, Portal de Aragón 1.",
-        "Email address for communications regarding personal data protection: info@redplanettribe.org."
+        "Email address for communications regarding personal data protection: privacy@redplanettribe.org."
       ]
     },
     {
@@ -344,7 +344,7 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
     {
       type: "paragraph",
       number: "9.5.4",
-      text: "Produce internal statistics through the use of anonymised or dissociated data, for the purposes of analysing use of the PLATFORM, participation trends at events and improvement of the service."
+      text: "Produce internal statistics for the purposes of analysing use of the PLATFORM, participation trends at events and improvement of the service. These statistics are produced on dissociated or pseudonymised data. Where the SUBJECT closes their account, their activity records are retained in pseudonymised and blocked form for the periods stated in section 7, and during that time they remain personal data subject to the REGULATION."
     },
     {
       type: "paragraph",
@@ -528,7 +528,7 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
     },
     {
       type: "paragraph",
-      text: "The SUBJECT may exercise the rights over their personal data by sending a request to the email address info@redplanettribe.org."
+      text: "The SUBJECT may exercise the rights over their personal data by sending a request to the email address privacy@redplanettribe.org."
     },
     {
       type: "subsection",
@@ -590,7 +590,25 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
     },
     {
       type: "paragraph",
-      text: "The SUBJECT may withdraw the authorisation and consent granted to MULTITICKETING for one or more purposes of the processing of their personal data, by submitting a written request sent to the email address info@redplanettribe.org."
+      text: "The SUBJECT may at any time withdraw the authorisation and consent granted to MULTITICKETING for the processing of their personal data. Withdrawal operates independently for each consent-based purpose, and the SUBJECT is not required to withdraw them all."
+    },
+    {
+      type: "paragraph",
+      text: "Withdrawal may be submitted, at the SUBJECT's choice, by either of these means:"
+    },
+    {
+      type: "paragraph",
+      number: "17.1",
+      text: "Directly on the PLATFORM, on the privacy screen of their account, where each consent-based purpose is displayed with the same wording under which it was granted and may be withdrawn or granted again independently. Because the SUBJECT is authenticated in their own account, this route requires neither the request nor the documentation set out in section 16.1, and takes effect immediately."
+    },
+    {
+      type: "paragraph",
+      number: "17.2",
+      text: "By a written request sent to the email address privacy@redplanettribe.org, with the content set out in section 16.1. This route remains available in all cases, and is the one that applies where the withdrawal is submitted by the SUBJECT's representative or by a person establishing standing in respect of a deceased or incapacitated SUBJECT. MULTITICKETING will answer the request within the periods established by the REGULATION."
+    },
+    {
+      type: "paragraph",
+      text: "Withdrawal takes effect prospectively. It does not affect the lawfulness of processing carried out while the consent was in force, nor communications already sent, nor data lawfully received by third parties during that period. In accordance with section 10, withdrawal will not affect access to the essential services of the PLATFORM that rest on other legitimising bases. If the SUBJECT also wishes the data already processed to be deleted, they must exercise the right of deletion or suppression provided for in section 16.2, by the route indicated in section 16."
     },
     {
       type: "section",
@@ -599,7 +617,7 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
     },
     {
       type: "paragraph",
-      text: "Upon express written request of the SUBJECT, which must be sent to the email address info@redplanettribe.org, MULTITICKETING may provide their personal data in a compatible, up-to-date, structured, common, interoperable and machine-readable format, preserving its characteristics; so that it may be held by the SUBJECT themselves or delivered to another controller designated by the SUBJECT."
+      text: "Upon express written request of the SUBJECT, which must be sent to the email address privacy@redplanettribe.org, MULTITICKETING may provide their personal data in a compatible, up-to-date, structured, common, interoperable and machine-readable format, preserving its characteristics; so that it may be held by the SUBJECT themselves or delivered to another controller designated by the SUBJECT."
     },
     {
       type: "section",
@@ -613,11 +631,19 @@ export const privacyPolicyEn: PrivacyPolicyDocument = {
     {
       type: "section",
       number: "20",
-      title: "Consent"
+      title: "Declaration of information and consent"
     },
     {
       type: "paragraph",
-      text: "The SUBJECT declares that they have been informed of, and accepts, without reservation or condition of any kind, the declarations and undertakings contained herein. In particular, they accept and approve expressly, freely, specifically, unambiguously and on an informed basis the handling of their personal data by MULTITICKETING, in the manner and to the extent detailed in the POLICY."
+      text: "The SUBJECT declares that they have been informed of the content of the POLICY and of the declarations and undertakings contained herein, prior to the processing of their personal data. This declaration constitutes an acknowledgement of having been informed and does not, by itself, entail consent to the processing."
+    },
+    {
+      type: "paragraph",
+      text: "The SUBJECT's consent is given solely and exclusively in respect of the purposes listed in section 9.4, independently for each of them, and is free, specific, informed and unambiguous. The other purposes described in the POLICY rest on the legitimising bases set out in sections 9.1, 9.2, 9.3 and 9.5, and do not require consent."
+    },
+    {
+      type: "paragraph",
+      text: "In accordance with section 10, the granting of consent is not a condition for access to the essential services of the PLATFORM, and its refusal or withdrawal will not affect that access."
     },
     {
       type: "section",

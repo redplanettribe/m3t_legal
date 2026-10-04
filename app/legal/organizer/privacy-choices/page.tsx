@@ -67,8 +67,8 @@ export default function OrganizerPrivacyChoicesPage() {
             Organizer App Privacy Policy
           </Link>
           . For privacy questions or requests that you can’t complete in-app, email{" "}
-          <a href="mailto:info@redplanettribe.org" className="text-primary underline underline-offset-4 hover:no-underline">
-            info@redplanettribe.org
+          <a href="mailto:privacy@redplanettribe.org" className="text-primary underline underline-offset-4 hover:no-underline">
+            privacy@redplanettribe.org
           </a>
           .
         </p>

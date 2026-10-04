@@ -65,8 +65,8 @@ export default function OrganizerDeleteMePage() {
             Organizer App Privacy Policy
           </Link>{" "}
           or email{" "}
-          <a href="mailto:info@redplanettribe.org" className="text-primary underline underline-offset-4 hover:no-underline">
-            info@redplanettribe.org
+          <a href="mailto:privacy@redplanettribe.org" className="text-primary underline underline-offset-4 hover:no-underline">
+            privacy@redplanettribe.org
           </a>
           .
         </p>
