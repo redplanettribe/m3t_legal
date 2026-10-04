@@ -172,7 +172,6 @@
 
 /* Prose styles for MDX content */
 .prose {
-  max-width: none;
   color: hsl(var(--foreground));
 }
 

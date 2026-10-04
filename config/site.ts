@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "My Site",
-  description: "A static site built with Next.js.",
-  url: "https://example.com",
+  name: "Multiticketing Legal",
+  description: "Policies and other legal documents for the Multiticketing (m3t) event management platform.",
+  url: "https://legal.multiticketing.com",
   ogImage: "/opengraph-image.png",
   keywords: [] as string[],
 }

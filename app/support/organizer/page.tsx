@@ -15,7 +15,7 @@ export const metadata = generateSEO({
 export default function OrganizerSupportPage() {
   return (
     <main id="main-content" className="min-h-screen bg-background py-12 text-foreground">
-      <Container size="sm" className="prose prose-neutral dark:prose-invert max-w-none">
+      <Container size="sm" className="prose prose-neutral dark:prose-invert">
         <p className="text-sm text-muted-foreground">
           <Link href="/" className="text-primary underline underline-offset-4 hover:no-underline">
             Home

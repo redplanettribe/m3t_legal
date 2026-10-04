@@ -23,7 +23,8 @@ export function generateSEO({
   const allKeywords = [...siteConfig.keywords, ...keywords]
 
   return {
-    title: seoTitle,
+    // The root layout's title template appends the site name.
+    title: title ?? { absolute: siteConfig.name },
     description,
     ...(allKeywords.length > 0 ? { keywords: allKeywords } : {}),
     openGraph: {
