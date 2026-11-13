@@ -53,6 +53,16 @@ export default function OrganizerSupportPage() {
           <li>Flow control behaviors and operational edge cases</li>
           <li>Performance problems or suspected bugs</li>
         </ul>
+        <p className="leading-7">
+          To build your Agenda with Claude or ChatGPT, see{" "}
+          <Link
+            href="/support/organizer/connected-agents"
+            className="text-primary underline underline-offset-4 hover:no-underline"
+          >
+            Build your Agenda with your AI app
+          </Link>
+          .
+        </p>
 
         <h2 className="mt-10 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight">
           Before you email (helps us respond faster)
