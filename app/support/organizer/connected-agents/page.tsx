@@ -155,8 +155,9 @@ export default function ConnectedAgentsSupportPage() {
         <P>Claude and ChatGPT can connect. Other AI apps can&apos;t yet.</P>
         <Ul>
           <li>
-            <strong>Claude</strong>: a free Claude account is enough. On a Claude Team or Enterprise plan, an Owner of your
-            Claude organization may need to add it first; then you choose Connect.
+            <strong>Claude</strong>: a free Claude account is enough. MultiTicketing is in Claude&apos;s directory under the
+            name M3T. On a Claude Team or Enterprise plan, an Owner of your Claude organization may need to allow it first;
+            then you choose Connect.
           </li>
           <li>
             <strong>ChatGPT</strong>: a Business, Enterprise or Edu workspace whose admin adds it, on the web only, not in
@@ -174,15 +175,14 @@ export default function ConnectedAgentsSupportPage() {
         <H3 id="in-claude">In Claude</H3>
         <Ol>
           <li>
-            Open Customize, then Connectors. Find MultiTicketing in the directory, or choose Add custom connector, name it
-            MultiTicketing and paste <Code>{mcpUrl}</Code>. The Add to Claude button on the Account page opens it already
-            filled in.
+            Open Customize, then Connectors, and find M3T in the directory. The Add to Claude button on the Account page
+            opens its listing.
           </li>
           <li>
             Choose Connect. MultiTicketing opens: sign in, tick the Events Claude may work on, and connect.
           </li>
           <li>
-            In a chat, turn MultiTicketing on from the + menu, attach your file and ask Claude to build the Agenda.
+            In a chat, turn M3T on from the + menu, attach your file and ask Claude to build the Agenda.
           </li>
         </Ol>
 
